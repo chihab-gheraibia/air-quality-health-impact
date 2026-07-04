@@ -1,0 +1,27 @@
+=======================================================
+PIPELINE COMPLETE — SUMMARY
+=======================================================
+  Dataset rows          : 23,463
+  Features used         : 9
+  MAE                   : 0.11 AQI points
+  RMSE                  : 1.52 AQI points
+  R² (test)             : 0.9993
+  R² (5-fold CV)        : 0.9994 ± 0.0003
+  Top feature           : pollutant_spread (0.802)
+  Biggest policy lever  : 25% cut in pm2.5_aqi_value → −1.06 avg AQI
+
+Output files:
+  • eda_01_aqi_distribution.png
+  • eda_02_correlation.png
+  • eda_03_country_rankings.png
+  • eda_04_pollutant_breakdown.png
+  • eda_05_world_aqi_map.html
+  • model_01_actual_vs_predicted.png
+  • model_02_residuals.png
+  • model_03_feature_importance.png
+  • shap_01_summary_beeswarm.png
+  • shap_02_bar.png
+  • shap_03_dependence_pm25.png
+  • shap_04_waterfall_single.png
+  • policy_simulator.png
+  • city_health_risk_report.csv
